@@ -19,12 +19,10 @@ Here an sample:
 
  func initHUDup(_ hud: itxHUDup)
  {
+        
         lblProzessDef.text = "Keep Cool"
-        
         images = ["0","1","2","3","4","5"]
-        
         imgView.image = UIImage(named: images[0])
-        
         timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(onTransition), userInfo: nil, repeats: true)
         
   }
