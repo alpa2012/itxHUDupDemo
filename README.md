@@ -17,6 +17,9 @@ HOWTOUSE:
 
 Just rename your pics in sequence numbers, starting with
 0.See the demo how to confiq.
+Copy the itxHUDup Folder in your project and start.
+Make it with animations.
+
 Here an sample:
 
  func initHUDup(_ hud: itxHUDup)
